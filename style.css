@@ -1,0 +1,350 @@
+body *{
+    display: flex;
+    font-family: "Oswald";
+  
+}
+
+html, body{
+    margin:0;
+
+    padding:0;
+}
+
+p{
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  
+
+/***************    HEADER   *************/
+
+.logo{
+    width: 200px;
+   
+    
+}
+
+header{
+background-color: rgb(40, 43, 95);
+box-sizing: border-box;
+justify-content: center;
+height: 100px;
+
+}
+
+nav ul{
+    align-items: center;
+}
+
+
+nav ul li{
+    
+    list-style: none;
+    margin: 0 10px 0 10px;
+    color: white;
+   
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/************* Main image/ front of site  *********/
+
+.frontPage {
+    background-image: url("assets/mainPhoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.introBox {
+    
+    height: 300px;
+    width: 300px;
+}
+
+h1{
+    font-size: 100px;
+    margin-bottom: 10px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+.frontPage span{
+    font-size: 2em;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+.frontPage button{
+    color: rgb(19, 28, 66);
+    background-color: rgb(159, 154, 226);
+    border: none;
+    height: 100px;
+    width: 200px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-radius: 3px;
+
+}
+.frontPage button:hover{
+    
+        background-color: rgb(19, 28, 66);
+        color: rgb(159, 154, 226);
+    }
+    
+
+/************* ABOUT *********/
+
+.aboutPage{
+    background-color: lightgray;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{                     /****GLOBAL****/
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.wrapper{              /****GLOBAL****/
+    flex-direction: row;
+}
+.aboutBox{
+    margin: 0 10px 0 10px;
+    
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutBox p{
+    padding: 0 35px 0 35px;
+}
+
+
+/******************* OUR TEAM **********************/
+
+.ourTeam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+   
+}
+
+.ourTeam img {
+    height: 400px;
+    width: 300px;
+    margin: 10px 10px;
+    
+    
+}
+
+.ourTeam section  span {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: black;
+    
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 100px;
+    align-items: center;
+    
+
+}
+.imgBox{
+    margin: 0 10px 0 10px;
+    
+    width: 450px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainerPic{
+    object-fit: cover;
+   object-position: -250px;
+    
+}
+
+/******************* Gallery **********************/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1035px;
+    background-color: lightgrey;
+   
+}
+
+
+.wrapperGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    width: 75%;
+    height: 75%;
+    gap: 1em;
+  }
+  
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+
+  }
+  
+  .box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    
+  }
+
+  .gridGallery{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  
+  .b1{
+    object-position: 0 -200px;
+  }
+
+
+
+/******************* JOIN **********************/
+
+.join {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
+   
+}
+.join section img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.join section{
+    width: 50%;
+}
+.joinImgSection{
+    height: 100%;
+}
+
+.signUpSection{
+    flex-direction: column;
+    align-items: center;
+}
+.wrapperJoin{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+.bigButton{
+    color: rgb(19, 28, 66);
+    background-color: rgb(159, 154, 226);
+    border: none;
+    height: 150px;
+    width: 300px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-radius: 3px
+}
+
+.bigButton:hover{
+    background-color: rgb(19, 28, 66);
+    color: rgb(159, 154, 226);
+}
+
+
+
+/******************* FOOTER **********************/
+
+
+footer{
+    display: flex;
+    height: 300px;
+    background-color: rgb(40, 43, 95);
+    color: white;
+    justify-content: center;
+}
+
+footer .wrapper{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    
+}
+.footerSection{
+    margin-top: 30px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: flex-start;
+
+    
+
+}
+.footerName {
+    margin-top: 20px;
+}
+
+.footerSection a{
+    color: white;
+    text-decoration: underline;
+}
+.footerSection ul{
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.footerSection p{
+    text-align: left;
+}
+
+.fa-facebook{
+    color: rgb(29, 81, 226);
+}
+.fa-twitter{
+    color: rgb(11, 174, 238);
+}
+.fa-instagram{
+    color: rgb(163, 9, 99);
+}
+
